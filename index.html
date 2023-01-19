@@ -484,60 +484,55 @@
             </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-
         <div class="modal-window">
             <button type="button" class="btn-close" data-modal-close>
                 <svg class="icon-close">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg> </button>
-            <div class="modal-window-forms" role="group">
+            <form class="modal-window-forms" role="group">
                 <h3 class="h3modal">Zostaw swoje dane poniżej</h3>
-                    <form class="modal-forms" name="name">
-                        <label class="modal-label">Imię</label>
-                        <div class="modal-form">
+                <div class="modal-forms" name="name">
+                    <label class="modal-label">Imię</label>
+                    <div class="modal-form">
                         <svg class="icon-modal-person">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                         <input class="modal-name" classtype="text" name="name" />
                     </div>
-                    </form>
-                    <form class="modal-forms" name="phone">
-                        <label class="modal-label">Telefon</label>
-                        <div class="modal-form">
+                </div>
+                <div class="modal-forms" name="phone">
+                    <label class="modal-label">Telefon</label>
+                    <div class="modal-form">
                         <svg class="icon-modal-phone">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
                         <input class="modal-name" classtype="text" name="phone" />
                     </div>
-                    </form>
-                    <form class="modal-forms" name="e-mail">
-                        <label class="modal-label">E-mail</label>
-                        <div class="modal-form">
+                </div>
+                <div class="modal-forms" name="e-mail">
+                    <label class="modal-label">E-mail</label>
+                    <div class="modal-form">
                         <svg class="icon-modal-email">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                         <input class="modal-name" classtype="text" name="name" />
                     </div>
-                    </form>
-                    <form class="modal-forms" name="comment">
-                        <label class="modal-label">Komentarz</label>
-                        <div class="modal-form-comment">
-                        <input class="modal-comment" classtype="text" name="comment" placeholder="Wprowadź tekst"/>
-                    </div>
-                </form>
-                    <div class="accept">
-                        <input class="regulations" type="checkbox" name="accept" >
-                        <p class="accept-text">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę prywatności</a></p>
-                        <button class="btn-accept" type="submit">Wyślij</button>
-                    </div>
-                    
-                    
                 </div>
+                <div class="modal-forms" name="comment">
+                    <label class="modal-label">Komentarz</label>
+                    <div class="modal-form-comment">
+                        <textarea class="modal-comment" classtype="text" name="comment" max-lengh="20"
+                            placeholder="Wprowadź tekst" /></textarea>
+                    </div>
+                </div>
+                <div class="accept">
+                <input class="regulations" type="checkbox" name="accept">
+                <label class="accept-text">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę prywatności</a></label>
+                <button class="btn-accept" type="submit">Wyślij</button>
             </div>
-
+            </form>
         </div>
 
-    </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
