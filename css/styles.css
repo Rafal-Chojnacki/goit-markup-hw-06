@@ -753,7 +753,7 @@ img {
 	margin: auto;
 	display: flex;
 }
-.regulations {
+#regulations {
 	width: 16px;
 	height: 15px;
 	position: absolute;
@@ -776,7 +776,7 @@ img {
 	text-decoration: none;
 	color: #2196f3;
 }
-.btn-accept {
+#btn-accept {
 	position: absolute;
 	top: 74px;
 	left: 124px;
@@ -793,7 +793,8 @@ img {
 	letter-spacing: 0.06em;
 	text-align: center;
 }
-.btn-accept:hover {
+
+#btn-accept:hover {
 	cursor: pointer;
 	background-color: #2196f3;
 	color: white;
@@ -802,7 +803,7 @@ img {
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.regulations {
+#regulations {
 	position: absolute;
 	top: 25px;
 	left: 7px;
@@ -822,8 +823,8 @@ img {
 }
 input:hover + .accept-text::before,
 input:focus + .accept-text::before {
-	
 	border-color: #2196f3;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 input:hover,
 input:focus {
